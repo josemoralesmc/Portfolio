@@ -1,0 +1,37 @@
+/* /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1.8em;
+    height: 1.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  margin-bottom: 0.9em;
+  margin-top: 0.9em;
+  cursor: pointer;
+}
+
+
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #69C9D0;
+  }
+  
+  .svg-icon circle {
+    stroke: #69C9D0;
+    stroke-width: 1;
+  }
+
+.nav{
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(87, 83, 83);
+    width: 6rem;
+    background-color: #181818;
+}
+
+
+
