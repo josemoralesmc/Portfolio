@@ -7,6 +7,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Urbanist', sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -42,7 +43,7 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .title {
@@ -71,9 +72,11 @@ svg {
 }
 
 .ctn-button {
+  overflow: hidden;
   position: relative;
   text-decoration: none;
   background-color: #1d1d1d;
+  cursor: pointer;
   color: #69C9D0;
   z-index: 2;
   line-height: 50px;
@@ -133,6 +136,7 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
+  cursor: pointer;
 }
 
 li:hover svg {
@@ -162,14 +166,15 @@ li::after {
   bottom: -150%;
   -webkit-transform: scale(0, 0);
           transform: scale(0, 0);
-  -webkit-transition: ease-out 0.5s all;
-  transition: ease-out 0.5s all;
+  -webkit-transition: ease-out 0.3s all;
+  transition: ease-out 0.3s all;
 }
 
 li:hover::after {
   border-radius: 0%;
   -webkit-transform: scale(0.5, 0.5);
           transform: scale(0.5, 0.5);
+  cursor: pointer;
 }
 
 .LogoNav {
@@ -205,5 +210,16 @@ li:hover::after {
   color: #EE1D52;
   text-shadow: #69C9D0 0.2rem 0rem;
   font-size: 6em;
+}
+
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 42%;
+  cursor: pointer;
+}
+
+.AboutMe {
+  background-color: #D7D1D1;
 }
 /*# sourceMappingURL=index.css.map */

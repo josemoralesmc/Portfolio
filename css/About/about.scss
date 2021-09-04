@@ -1,0 +1,37 @@
+.AboutMe{
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.TitleAbout{
+    color: #69C9D0;
+}
+
+.TextAbout{
+    color:#ECE8E8;
+}
+
+.ArticleAboutMe{
+    width: 30rem;
+    margin-top: 6rem;
+}
+
+.SKflex{
+    display: grid;
+    grid-auto-columns: 15rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 6rem;
+    overflow: hidden;
+}
+
+.svg-skill{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}

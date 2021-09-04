@@ -1,0 +1,64 @@
+.CtnService {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-left: 6rem;
+  gap: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+}
+
+.boxService {
+  width: 23rem;
+  height: 20rem;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+  -webkit-box-shadow: 10px 10px 15px #191919, -10px -10px 15px #212121;
+          box-shadow: 10px 10px 15px #191919, -10px -10px 15px #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+  text-align: center;
+}
+
+.boxService:hover {
+  border-bottom: 5px solid #69C9D0;
+}
+
+.boxService:hover .svgService {
+  fill: #69C9D0;
+}
+
+.svgService {
+  margin-top: -17%;
+  margin-right: 0;
+}
+
+.TitleService {
+  margin-top: 10%;
+}
+
+.TextService {
+  margin-top: 7%;
+}
+/*# sourceMappingURL=Service.css.map */

@@ -8,11 +8,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
+    overflow-x: hidden;
 }
 
 body{
-  background-color: #1d1d1d;
+    background-color: #1d1d1d;
 }
+
 
 span{
     font-family: 'Almarai', sans-serif;
@@ -34,8 +36,7 @@ svg{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
-
+    overflow-x: hidden;
 }
 
 .title{
@@ -49,6 +50,7 @@ svg{
 .TitleJ{
     color: #EE1D52;
     text-shadow: #69C9D0 0.2rem 0rem;
+    
 }
 
 .LetraDiv{
@@ -61,14 +63,17 @@ svg{
     font-family: 'Almarai', sans-serif;
     color: #EE1D52;
     text-shadow: #69C9D0 1rem 0rem;
+    
 }
 
 // BUTTON CONTACT
 
 .ctn-button{
+    overflow: hidden;
     position: relative;
     text-decoration: none;
     background-color: #1d1d1d;
+    cursor: pointer;
     color: #69C9D0;
     z-index: 2;
     line-height: 50px;
@@ -118,6 +123,7 @@ li {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    cursor: pointer;
     &:hover {
         svg {
             display: none;
@@ -143,13 +149,15 @@ li::after {
     top: -150%;
     bottom: -150%;
     transform: scale(0.0, 0.0);
-    transition: ease-out 0.5s all;
+    transition: ease-out 0.3s all;
     
 }
 li:hover::after {
     border-radius: 0%;
     transform: scale(0.5, 0.5);
+    cursor: pointer;
 }
+
 
 
 //Logo Nav
@@ -178,4 +186,19 @@ li:hover::after {
     color: #EE1D52;
     text-shadow: #69C9D0 0.2rem 0rem;
     font-size: 6em;
+}
+
+// ARROW
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    cursor: pointer;
+}
+
+// SECTION ABOUT ME
+
+.AboutMe{
+    background-color: #D7D1D1;
 }

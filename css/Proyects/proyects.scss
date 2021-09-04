@@ -1,0 +1,99 @@
+.Proyects{
+    background-color: #1d1d1d;
+    height: 100vh;
+}
+
+.TitleProyects{
+    margin-left: 6rem;
+    font-size: 5rem;
+    color: #69C9D0;
+    
+}
+
+.Proyects-Flex{
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6rem;
+    column-gap: -2rem;
+    margin-left: 6rem;
+}
+.Proyect{
+    display: flex;
+    margin-right: -rem;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    
+}
+.ContentProyect{
+    position: relative;
+    overflow: hidden;
+    border-radius: 3%;
+   
+    
+}
+
+.imgv{
+    display: block;
+    opacity: 1;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+
+.HoverProyect{
+    display: flex;
+    gap: 3rem;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+
+.ContentProyect:hover .imgv{
+    opacity: 0.3;
+    transform: scale(1.5);
+}
+.ContentProyect:hover .HoverProyect{
+    opacity: 1;
+    top: 50%;
+}
+
+
+
+.svg-proyect{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 0;
+
+}
+
+.ctn-icon-proyect{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height:3rem;
+    border: #69C9D0 solid 1px;
+    border-radius: 50%;
+    
+    &:hover  {
+        background-color: #69C9D0;
+    }
+    &:hover .svg-proyect{
+        fill: black;
+    }
+
+    
+}

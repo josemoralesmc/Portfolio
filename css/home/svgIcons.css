@@ -17,21 +17,43 @@ SVG Icons - svgicons.sparkk.fr
   .svg-icon path,
   .svg-icon polygon,
   .svg-icon rect {
-    fill: #69C9D0;
+    fill: #69C9D0BF;
   }
   
   .svg-icon circle {
-    stroke: #69C9D0;
-    stroke-width: 1;
+    stroke: #69C9D0BF;
+    stroke-width: 0;
   }
+  
 
 .nav{
-    height: 100vh;
+
     position: fixed;
+    height: 100vh;
     background-color: rgb(87, 83, 83);
     width: 6rem;
     background-color: #181818;
 }
 
+
+
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 10s ease-out  ;
+  animation-iteration-count: 1;
+}
+
+@keyframes dash {
+ 
+  to {
+    stroke-dashoffset: 0;
+    fill: #69C9D0BF;
+    stroke: #69C9D0BF;
+    stroke-width: 0.8; 
+   
+  }
+}
 
 

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="5em" height="5em" style="">               
+                      <title>my vector image</title>                                 
+                <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="#1d1d1d " stroke="none" class="selected" style=""/> 
+      <g class="currentLayer" style=""><title>Layer 1</title><path fill="none" stroke="#69C9D0" stroke-opacity="1" 
+    stroke-width="2" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" 
+      fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end=""
+    d="M7.38949088165316,4.552637413763364 L133.70528194039173,4.552637413763364 " id="svg_1" class="selected" 
+        filter=""/><path fill="none" stroke="#69C9D0" stroke-opacity="1" stroke-width="2" stroke-dasharray="none" 
+    stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" 
+    marker-end="" d="M150.41580883571658,4.157899216436704 L276.73159989445514,4.157899216436704 " class="" id="svg_2" filter=""/>
+    <path fill="none" stroke="#69C9D0" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" marker-start="" 
+    marker-mid="" marker-end="" id="svg_3" d="M142.5217610885528,9.565787141064675 L137.20755622068054,1.3472727445293347 L146.76266734698117,9.565787141064675
+     L137.20755622068054,17.784297124892078 L142.5217610885528,9.565787141064675 z" style="color: rgb(0, 0, 0);" class="selected"
+      transform="rotate(90.53875732421875 141.985107421875,9.56576633453371) " filter="" opacity="1" stroke-opacity="1"/><path  fill="none" 
+      stroke="#69C9D0" stroke-opacity="1" stroke-width="2" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" 
+      fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M133.70528103095864,11.669862597768685 L141.6000175158262,21.0000055140232 " 
+      id="svg_5" class="" filter=""/><path fill="none" stroke="#69C9D0" stroke-opacity="1" stroke-width="2" stroke-dasharray="none" stroke-linejoin="round" 
+      stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" 
+      d="M141.48944736450608,22.056626780688305 L150.37379875406077,11.377455345300234 " id="svg_6" class="" filter=""/></g>
+      <defs><marker id="Arrow2Sstart" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow2Sstart" overflow="visible">
+            <path d="M1.926 1.21l-3.278-1.205 3.278-1.205c-.524.712-.521 1.685 0 2.411z" fill-rule="evenodd" 
+            style="fill: rgb(34, 34, 34); stroke: rgb(34, 34, 34); stroke-dasharray: none;" id="svg_4"/>
+        </marker><marker id="Arrow1Sstart" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Sstart" overflow="visible">
+            <path transform="scale(0.20000000298023224) translate(6,0) " d="M0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" 
+            stroke="#000" stroke-width="1pt" style="fill: rgb(34, 34, 34); stroke: rgb(34, 34, 34); stroke-dasharray: none;" id="svg_7"/>
+        </marker></defs></svg>
