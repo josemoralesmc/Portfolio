@@ -24,9 +24,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  row-gap: 6rem;
-  -webkit-column-gap: -2rem;
-          column-gap: -2rem;
+  row-gap: 4rem;
+  -webkit-column-gap: -4rem;
+          column-gap: -4rem;
   margin-left: 6rem;
 }
 

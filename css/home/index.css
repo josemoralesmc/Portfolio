@@ -46,6 +46,10 @@ svg {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .title {
   display: block;
   margin-left: auto;
