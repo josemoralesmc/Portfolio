@@ -69,7 +69,7 @@ a {
 
 .Letra {
   margin-right: 19rem;
-  font-size: 25rem;
+  font-size: 22rem;
   font-family: 'Almarai', sans-serif;
   color: #EE1D52;
   text-shadow: #69C9D0 1rem 0rem;
@@ -114,7 +114,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 65%;
+  height: 60%;
 }
 
 .options {
@@ -154,8 +154,8 @@ li:hover .options {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 0.83em;
-  margin-top: 0.83em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 li::after {
@@ -213,7 +213,7 @@ li:hover::after {
   font-family: 'Almarai', sans-serif;
   color: #EE1D52;
   text-shadow: #69C9D0 0.2rem 0rem;
-  font-size: 6em;
+  font-size: 5.5em;
 }
 
 .arrow {

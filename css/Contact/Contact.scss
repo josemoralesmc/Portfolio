@@ -1,0 +1,61 @@
+.SectionContact {
+  background-color: #1d1d1d;
+  height: 58vh;
+}
+
+.TitleContact {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  font-size: 3rem;
+  background: linear-gradient(
+    0deg,
+    rgba(29, 29, 29, 0.9682247899159664) 11%,
+    rgba(36, 193, 194, 1) 60%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.ctn-contact{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactbox {
+   width: 7rem;
+  height: 5rem;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+  box-shadow: 10px 10px 15px #191919, -10px -10px 15px #212121;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+    &:hover{
+        background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+        box-shadow: inset 10px 10px 34px #191919,
+            inset -10px -10px 34px #212121;
+    }
+}
+
+.contactbox:hover .rectgm{
+    fill:#ECEFF1;
+}
+.contactbox:hover .polygongm{
+    fill:#CFD8DC;
+}
+.contactbox:hover .pathgm{
+    fill:#F44336;
+}
+.contactbox:hover .pathin{
+    fill:#0077B7;;
+}
+
+.svgcontact{
+    margin-right: 0;
+}

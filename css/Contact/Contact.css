@@ -1,0 +1,82 @@
+.SectionContact {
+  background-color: #1d1d1d;
+  height: 58vh;
+}
+
+.TitleContact {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(11%, rgba(29, 29, 29, 0.968225)), color-stop(60%, #24c1c2));
+  background: linear-gradient(0deg, rgba(29, 29, 29, 0.968225) 11%, #24c1c2 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.ctn-contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactbox {
+  width: 7rem;
+  height: 5rem;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+  -webkit-box-shadow: 10px 10px 15px #191919, -10px -10px 15px #212121;
+          box-shadow: 10px 10px 15px #191919, -10px -10px 15px #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactbox:hover {
+  background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+  -webkit-box-shadow: inset 10px 10px 34px #191919, inset -10px -10px 34px #212121;
+          box-shadow: inset 10px 10px 34px #191919, inset -10px -10px 34px #212121;
+}
+
+.contactbox:hover .rectgm {
+  fill: #ECEFF1;
+}
+
+.contactbox:hover .polygongm {
+  fill: #CFD8DC;
+}
+
+.contactbox:hover .pathgm {
+  fill: #F44336;
+}
+
+.contactbox:hover .pathin {
+  fill: #0077B7;
+}
+
+.svgcontact {
+  margin-right: 0;
+}
+/*# sourceMappingURL=Contact.css.map */

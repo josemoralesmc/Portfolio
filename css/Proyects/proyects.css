@@ -4,9 +4,12 @@
 }
 
 .TitleProyects {
-  margin-left: 6rem;
+  margin-left: 10rem;
   font-size: 5rem;
-  color: #69C9D0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(11%, rgba(29, 29, 29, 0.968225)), color-stop(60%, #24c1c2));
+  background: linear-gradient(0deg, rgba(29, 29, 29, 0.968225) 11%, #24c1c2 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .Proyects-Flex {
@@ -25,8 +28,8 @@
       -ms-flex-align: center;
           align-items: center;
   row-gap: 4rem;
-  -webkit-column-gap: -4rem;
-          column-gap: -4rem;
+  -webkit-column-gap: -2rem;
+          column-gap: -2rem;
   margin-left: 6rem;
 }
 

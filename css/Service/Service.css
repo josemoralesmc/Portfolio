@@ -15,11 +15,12 @@
       -ms-flex-align: center;
           align-items: center;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .boxService {
-  width: 24rem;
-  height: 20rem;
+  width: 22.5rem;
+  height: 17rem;
   border-radius: 15px;
   background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
   -webkit-box-shadow: 10px 10px 15px #191919, -10px -10px 15px #212121;
@@ -39,6 +40,7 @@
           align-items: center;
   padding: 3rem;
   text-align: center;
+  border-bottom: 5px solid #1a1a1a;
 }
 
 .boxService:hover {
