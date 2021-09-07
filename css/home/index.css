@@ -6,16 +6,17 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   overflow-x: hidden;
 }
 
 body {
   background-color: #1d1d1d;
+  position: relative;
 }
 
 span {
-  font-family: 'Almarai', sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 4vw;
 }
 
@@ -54,12 +55,12 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  color: #D7D1D1;
+  color: #d7d1d1;
 }
 
 .TitleJ {
-  color: #EE1D52;
-  text-shadow: #69C9D0 0.2rem 0rem;
+  color: #ee1d52;
+  text-shadow: #69c9d0 0.2rem 0rem;
 }
 
 .LetraDiv {
@@ -72,9 +73,9 @@ a {
   font-size: 20vw;
   /*  width: 80%;
     height: 80%; */
-  font-family: 'Almarai', sans-serif;
-  color: #EE1D52;
-  text-shadow: #69C9D0 1rem 0rem;
+  font-family: "Almarai", sans-serif;
+  color: #ee1d52;
+  text-shadow: #69c9d0 1rem 0rem;
 }
 
 .ctn-button {
@@ -83,7 +84,7 @@ a {
   text-decoration: none;
   background-color: #1d1d1d;
   cursor: pointer;
-  color: #69C9D0;
+  color: #69c9d0;
   z-index: 2;
   line-height: 50px;
   letter-spacing: 3px;
@@ -92,8 +93,8 @@ a {
   margin-top: 3rem;
   height: 3rem;
   width: 14rem;
-  border: 2px #69C9D0 solid;
-  background-image: linear-gradient(45deg, #69C9D0 50%, transparent 50%);
+  border: 2px #69c9d0 solid;
+  background-image: linear-gradient(45deg, #69c9d0 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   -webkit-transition: background 300ms ease-in-out;
@@ -102,7 +103,7 @@ a {
 
 .ctn-button:hover {
   background-position: 0%;
-  color: #302F2F;
+  color: #302f2f;
 }
 
 .NavItems {
@@ -121,7 +122,7 @@ a {
 
 .options {
   display: none;
-  color: #D7D1D1;
+  color: #d7d1d1;
 }
 
 hr {
@@ -200,7 +201,7 @@ li:hover::after {
 }
 
 .Nombrelogo {
-  color: #D7D1D1;
+  color: #d7d1d1;
   font-size: 1.5em;
 }
 
@@ -212,10 +213,18 @@ li:hover::after {
 }
 
 .LetraNav {
-  font-family: 'Almarai', sans-serif;
-  color: #EE1D52;
-  text-shadow: #69C9D0 0.2rem 0rem;
+  font-family: "Almarai", sans-serif;
+  color: #ee1d52;
+  text-shadow: #69c9d0 0.2rem 0rem;
   font-size: 5.5em;
+}
+
+.hamburger {
+  display: none;
+}
+
+.ulItem {
+  display: none;
 }
 
 .arrow {
@@ -226,15 +235,15 @@ li:hover::after {
 }
 
 .AboutMe {
-  background-color: #D7D1D1;
+  background-color: #d7d1d1;
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 768px) {
   .LetraDiv {
     display: none;
   }
   span {
-    font-family: 'Almarai', sans-serif;
+    font-family: "Almarai", sans-serif;
     font-size: 7vw;
   }
   .arrow {
@@ -242,6 +251,66 @@ li:hover::after {
     top: 90%;
     left: 30%;
     cursor: pointer;
+  }
+  .LogoNav {
+    display: none;
+  }
+  li {
+    display: none;
+  }
+  .NavItems {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    top: 0%;
+    width: 100%;
+    height: 1.5%;
+    background-color: #1d1d1d;
+  }
+  .IconHamburguer {
+    position: fixed;
+    padding-left: 90%;
+    padding-top: 1rem;
+    width: 100%;
+    z-index: 100;
+    background-color: #1d1d1d;
+  }
+  .ulItemClose {
+    overflow: hidden;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  .ulItem {
+    position: fixed;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    padding-top: 3rem;
+    background-color: #1d1d1dD9;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 2rem;
+    height: 3rem;
+    margin-top: 3rem;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

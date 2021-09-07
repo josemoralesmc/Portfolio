@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (max-width: 622px){ 
+@media screen and (max-width: 768px){ 
     .TitleProyects{
         margin-left: 6rem;
         font-size: 4rem;
@@ -127,4 +127,8 @@
         width: 50%;
         
     }
+.TitleProyects{
+    margin-left: 5rem;
+}
+
  }

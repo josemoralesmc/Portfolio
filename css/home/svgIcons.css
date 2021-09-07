@@ -57,6 +57,11 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 
-@media screen and (max-width: 622px){
-  
+@media screen and (max-width: 768px){
+  .nav{
+display: none;
+}
+.svg-icon {
+ display: none;
+}
  }
