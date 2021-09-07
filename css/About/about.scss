@@ -16,15 +16,15 @@
 }
 
 .ArticleAboutMe{
-    width: 30rem;
+    width: 30vw;
     margin-top: 6rem;
 }
 
 .SKflex{
     display: grid;
-    grid-auto-columns: 15rem;
+    grid-auto-columns: 15vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
+    gap: 3vw;
     margin-top: 6rem;
     overflow: hidden;
 }
@@ -33,5 +33,20 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 1rem;
+    padding: 0.5vw;
 }
+
+@media screen and (max-width: 1024px){
+    .AboutMe{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    }
+    .ArticleAboutMe{
+        width: 50vw;
+        margin-top: 1rem;
+    }
+}
+    

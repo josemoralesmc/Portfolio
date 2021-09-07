@@ -43,3 +43,10 @@ border-bottom: 5px solid #1a1a1a;
 .TextService{
     margin-top: 7%;
 }
+
+@media screen and (max-width: 622px){ 
+    .boxService{
+        width: 65%;
+        height: 20%;
+    }
+}

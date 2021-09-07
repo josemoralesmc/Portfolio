@@ -21,17 +21,17 @@
 }
 
 .ArticleAboutMe {
-  width: 30rem;
+  width: 30vw;
   margin-top: 6rem;
 }
 
 .SKflex {
   display: -ms-grid;
   display: grid;
-  grid-auto-columns: 15rem;
+  grid-auto-columns: 15vw;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 3rem;
+  gap: 3vw;
   margin-top: 6rem;
   overflow: hidden;
 }
@@ -45,6 +45,29 @@
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 1rem;
+  padding: 0.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .AboutMe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  .ArticleAboutMe {
+    width: 50vw;
+    margin-top: 1rem;
+  }
 }
 /*# sourceMappingURL=about.css.map */

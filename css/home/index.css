@@ -16,7 +16,7 @@ body {
 
 span {
   font-family: 'Almarai', sans-serif;
-  font-size: 4rem;
+  font-size: 4vw;
 }
 
 ul {
@@ -68,8 +68,10 @@ a {
 }
 
 .Letra {
-  margin-right: 19rem;
-  font-size: 22rem;
+  margin-right: 22vw;
+  font-size: 20vw;
+  /*  width: 80%;
+    height: 80%; */
   font-family: 'Almarai', sans-serif;
   color: #EE1D52;
   text-shadow: #69C9D0 1rem 0rem;
@@ -225,5 +227,21 @@ li:hover::after {
 
 .AboutMe {
   background-color: #D7D1D1;
+}
+
+@media screen and (max-width: 622px) {
+  .LetraDiv {
+    display: none;
+  }
+  span {
+    font-family: 'Almarai', sans-serif;
+    font-size: 7vw;
+  }
+  .arrow {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=index.css.map */

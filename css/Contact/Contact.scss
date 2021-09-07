@@ -16,18 +16,21 @@
   -webkit-background-clip: text;
 }
 
-.ctn-contact{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    gap: 2rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+.ctn-contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactbox {
-   width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
   height: 5rem;
   border-radius: 15px;
   background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
@@ -36,26 +39,25 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-    &:hover{
-        background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
-        box-shadow: inset 10px 10px 34px #191919,
-            inset -10px -10px 34px #212121;
-    }
+  &:hover {
+    background: linear-gradient(145deg, #1f1f1f, #1a1a1a);
+    box-shadow: inset 10px 10px 34px #191919, inset -10px -10px 34px #212121;
+  }
 }
 
-.contactbox:hover .rectgm{
-    fill:#ECEFF1;
+.contactbox:hover .rectgm {
+  fill: #eceff1;
 }
-.contactbox:hover .polygongm{
-    fill:#CFD8DC;
+.contactbox:hover .polygongm {
+  fill: #cfd8dc;
 }
-.contactbox:hover .pathgm{
-    fill:#F44336;
+.contactbox:hover .pathgm {
+  fill: #f44336;
 }
-.contactbox:hover .pathin{
-    fill:#0077B7;;
+.contactbox:hover .pathin {
+  fill: #0077b7;
 }
 
-.svgcontact{
-    margin-right: 0;
+.svgcontact {
+  margin-right: 0;
 }

@@ -63,4 +63,11 @@
 .TextService {
   margin-top: 7%;
 }
+
+@media screen and (max-width: 622px) {
+  .boxService {
+    width: 65%;
+    height: 20%;
+  }
+}
 /*# sourceMappingURL=Service.css.map */
