@@ -13,16 +13,16 @@ window.onload = () => {
   
     let segundo = links[1]
     segundo.addEventListener('click', () => {
-      scrollSuave('#SectionAboutMe', 500, 10)
+      scrollSuave('#SectionAboutMe', 500, 80)
     })
   
     let tercero = links[2]
     tercero.addEventListener('click', () => {
-      scrollSuave('#Proyects', 500, 10)
+      scrollSuave('#Proyects', 500, 20)
     })
     let cuarto = links[3]
     cuarto.addEventListener('click', () => {
-      scrollSuave('#Services', 500, 10)
+      scrollSuave('#Services', 500, 20)
     })
     let quinto = links[4]
     quinto.addEventListener('click', () => {
@@ -30,10 +30,30 @@ window.onload = () => {
     })
     let sexto = links[5]
     sexto.addEventListener('click', () => {
-      scrollSuave('#Contact', 500, 10)
+      scrollSuave('#Home', 500, 10)
     })
     let septimo = links[6]
     septimo.addEventListener('click', () => {
+      scrollSuave('#SectionAboutMe', 500, 10)
+    })
+    let octavo = links[7]
+    octavo.addEventListener('click', () => {
+      scrollSuave('#Proyects', 500, 10)
+    })
+    let noveno = links[8]
+    noveno.addEventListener('click', () => {
+      scrollSuave('#Services', 500, 10)
+    })
+    let decimo = links[9]
+    decimo.addEventListener('click', () => {
+      scrollSuave('#Contact', 500, 10)
+    })
+    let decimop = links[10]
+    decimop.addEventListener('click', () => {
+      scrollSuave('#Home', 500, 10)
+    })
+    let decimoS = links[11]
+    decimoS.addEventListener('click', () => {
       scrollSuave('#SectionAboutMe', 500, 10)
     })
   }
@@ -75,4 +95,10 @@ window.onload = () => {
           e.target.setAttribute("src", "./img/menu.svg");
       }
     ulList.classList.toggle("ulItem")
+  })
+
+
+  ulList.addEventListener("click", () => {
+    ulList.classList.toggle("ulItem")
+    svghamburguer.src = "./img/menu.svg";
   })

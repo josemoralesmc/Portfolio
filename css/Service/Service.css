@@ -64,7 +64,13 @@
   margin-top: 7%;
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 768px) {
+  .CtnService {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 533) {
   .boxService {
     width: 65%;
     height: 20%;

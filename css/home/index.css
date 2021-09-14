@@ -229,8 +229,8 @@ li:hover::after {
 
 .arrow {
   position: absolute;
-  top: 90%;
-  left: 42%;
+  top: 21%;
+  left: 40%;
   cursor: pointer;
 }
 
@@ -247,10 +247,7 @@ li:hover::after {
     font-size: 7vw;
   }
   .arrow {
-    position: absolute;
-    top: 90%;
-    left: 30%;
-    cursor: pointer;
+    display: none;
   }
   .LogoNav {
     display: none;
@@ -311,6 +308,20 @@ li:hover::after {
     height: 3rem;
     margin-top: 3rem;
     font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ctn-button {
+    width: 12rem;
+  }
+  .IconHamburguer {
+    position: fixed;
+    padding-left: 87%;
+    padding-top: 1rem;
+    width: 100%;
+    z-index: 100;
+    background-color: #1d1d1d;
   }
 }
 /*# sourceMappingURL=index.css.map */

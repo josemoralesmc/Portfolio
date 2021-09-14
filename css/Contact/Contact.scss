@@ -61,3 +61,24 @@
 .svgcontact {
   margin-right: 0;
 }
+
+
+@media screen and (max-width: 1024px){ 
+  .SectionContact {
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 425px){ 
+  .TitleContact {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+    background: linear-gradient(
+      0deg,
+      rgba(29, 29, 29, 0.9682247899159664) 11%,
+      rgba(36, 193, 194, 1) 60%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
