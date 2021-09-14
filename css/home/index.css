@@ -306,7 +306,7 @@ li:hover::after {
             align-items: center;
     line-height: 2rem;
     height: 3rem;
-    margin-top: 3rem;
+    padding: 4rem;
     font-size: 3rem;
   }
 }
@@ -322,6 +322,10 @@ li:hover::after {
     width: 100%;
     z-index: 100;
     background-color: #1d1d1d;
+  }
+  .svghamburguer {
+    height: 2rem;
+    width: 2rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

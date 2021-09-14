@@ -50,7 +50,7 @@ window.onload = () => {
     })
     let decimop = links[10]
     decimop.addEventListener('click', () => {
-      scrollSuave('#Home', 500, 10)
+      scrollSuave('#Contact', 500, 10)
     })
     let decimoS = links[11]
     decimoS.addEventListener('click', () => {
