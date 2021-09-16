@@ -46,6 +46,7 @@
       -ms-flex-align: center;
           align-items: center;
   width: 35%;
+  overflow: hidden;
 }
 
 .ContentProyect {
@@ -57,11 +58,13 @@
 .imgv {
   display: block;
   opacity: 1;
-  width: 100%;
+  width: 23rem;
+  height: 15rem;
   -webkit-transition: .5s ease;
   transition: .5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  overflow: hidden;
 }
 
 .HoverProyect {
