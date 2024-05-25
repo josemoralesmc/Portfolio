@@ -1,9 +1,72 @@
 ---
-const personalImageAlt = "Miguel Ángel"
 import Badge from "@/components/Badge.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
 import MailIcon from "@/components/icons/Mail.astro"
 import SocialPill from "@/components/SocialPill.astro"
+import Knowledge from "./icons/knowledge.astro"
+import NextJS from "@/components/icons/next.astro"
+import Tailwind from "@/components/icons/Tailwind.astro"
+import Node from "@/components/icons/Node.astro"
+import AWS from "@/components/icons/AWS.astro"
+import TS from "@/components/icons/ts.astro"
+import REACT from "@/components/icons/react.astro"
+import MONGO from "@/components/icons/mongo.astro"
+import EXPRESS from "@/components/icons/express.astro"
+import DOCKER from "@/components/icons/docker.astro"
+import GITHUB from "@/components/icons/GitHub.astro"
+
+const TAGS = {
+  NEXT: {
+    name: "Next",
+    class: "bg-[#000000] text-white", // Color de fondo negro
+    icon: NextJS
+  },
+  GITHUB: {
+    name: "GitHub",
+    class: "bg-[#000000] text-white", // Color de fondo negro
+    icon: GITHUB
+  },
+  DOCKER: {
+    name: "Docker",
+    class: "bg-[#2496ED] text-white", // Azul Docker
+    icon: DOCKER
+  },
+  MONGO: {
+    name: "MongoDB",
+    class: "bg-[#589636] text-white", // Verde MongoDB
+    icon: MONGO
+  },
+  TS: {
+    name: "TypeScript",
+    class: "bg-[#007ACC] text-white", // Azul TypeScript
+    icon: TS
+  },
+  REACT: {
+    name: "React",
+    class: "bg-[#007ACC] text-white", // Azul React
+    icon: REACT
+  },
+  TAILWIND: {
+    name: "Tailwind CSS",
+    class: "bg-[#38B2AC] text-white", // Turquesa Tailwind CSS
+    icon: Tailwind
+  },
+  Node: {
+    name: "Node",
+    class: "bg-[#68A063] text-black", // Verde Node.js
+    icon: Node
+  },
+  EXPRESS: {
+    name: "Express",
+    class: "bg-[#000000] text-white", // Color de fondo negro
+    icon: EXPRESS
+  },
+  AWS: {
+    name: "AWS",
+    class: "bg-[#FF9900] text-black", // Naranja AWS
+    icon: AWS
+  }
+}
 ---
 
 <div class="max-w-xl">
@@ -11,7 +74,6 @@ import SocialPill from "@/components/SocialPill.astro"
     <img
       class="rounded-full shadow-lg size-16"
       src="/me.webp"
-      alt={personalImageAlt}
     />
     <a
       href="https://www.linkedin.com/in/jose-maria-morales-21b641184/"
@@ -45,4 +107,21 @@ import SocialPill from "@/components/SocialPill.astro"
       LinkedIn
     </SocialPill>
   </nav>
+  <div class="flex w-full justify-start items-start">
+    <h1 class="text-4xl font-medium tracking-tight text-gray-800 mt-10 sm:text-3xl dark:text-white flex items-center">
+      <Knowledge /> 
+      <div class="ml-4">
+        Conocimientos
+      </div>
+    </h1>
+  </div>
+  <div class="mt-6 grid grid-cols-2 gap-4">
+    {Object.values(TAGS).map(tag => (
+      <div class={`flex items-center p-2 rounded ${tag.class}`} key={tag.name}>
+        <tag.icon class="w-6 h-6 " />
+        <span class="ml-2">{tag.name}</span>
+      </div>
+    ))}
+  </div>
 </div>
+
